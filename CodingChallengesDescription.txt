@@ -1,0 +1,24 @@
+Day 2
+Exploring Data Types
+For this challenge, you need to read a line from stdin and check whether it is of type integer, float or string. 
+If input is- 
+    Integer print 'This input is of type Integer.' to the stdout 
+    Float print 'This input is of type Float.' to the stdout 
+    String print 'This input is of type string.' to the stdout 
+    else print 'This is something else.' to the stdout. 
+
+Day 7
+Given a range and you need to find how many prime numbers lying between the given range. 
+
+Day 8
+Given a integer input and store it in a variable of your choice and checks whether this number is an Armstrong number or not. 
+If yes print 'True' else print 'False'.
+
+Day 9
+Given a integer input and store it in a variable and checks whether the input number is a Narcissistic number or not. 
+If it is, then print 'True' else print 'False'. 
+An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. 
+
+Day 10
+Given number of elements as input on one line and array elements as an input on another line.
+find the second largest array element and print that element to the stdout. 
