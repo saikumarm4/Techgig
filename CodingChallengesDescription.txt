@@ -22,3 +22,6 @@ An n-digit number that is the sum of the nth powers of its digits is called an n
 Day 10
 Given number of elements as input on one line and array elements as an input on another line.
 find the second largest array element and print that element to the stdout. 
+
+Day 11
+print the number of uppercase letters on one line and number of lowercase letters on another side.
