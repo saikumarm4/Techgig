@@ -25,3 +25,15 @@ find the second largest array element and print that element to the stdout.
 
 Day 11
 print the number of uppercase letters on one line and number of lowercase letters on another side.
+
+Day 12
+Adding Two Matrices
+
+Day 13
+Transpose of a Given Matrix
+
+Day 14
+Lexicographically order a sequence of Strings
+
+Day 15
+A number raised to a power using recursion
