@@ -45,6 +45,14 @@ Given two numbers , calculate their greatest common divisor (GCD) and print it t
 Day 17
 Given array and an integer as an input, check for pair in array with sum as that of an integer and if those two numbers are found in the array return true else return false. 
 
+Day 18
+Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. 
+Input
+13
+1 2 4 7 10 11 7 12 3 7 16 18 19
+Output
+4 7 10 11 7 12 3 7
+
 Day 19
 Given binary number as an input and you need to convert it into a decimal number
 

@@ -1,27 +1,33 @@
 package techgig;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Day18_MinEffortMaxOutput {
 
 	public static void main(String[] args) {
-		int size = 13;
-		int[] array = { 1, 2, 4, 7, 10, 11, 7, 12, 3, 7, 16, 18, 19 };
-		int pivot = -1;
-		int x = -1, y = -1;
-		for (int i = 0; i < size - 1; i++) {
-			if (array[i] <= array[i + 1])
-				continue;
-			pivot = array[i + 1];
-			y = i + 1;
-			break;
-		}
-		for (int i = 0; i < size - 1; i++) {
-			if (array[i] <= pivot)
-				continue;
-			x = i;
-			break;
-		}
+		Scanner scan = new Scanner(System.in);
+		int size = scan.nextInt();
+		scan.nextLine();
+		int[] array = new int[size];
+		for (int i = 0; i < size; i++)
+			array[i] = scan.nextInt();
 
-		System.out.println(x + " " + y);
-		System.out.println(array[x] + "  " + array[y]);
+		int[] arrayDuplicate = array.clone();
+		Arrays.sort(arrayDuplicate);
+
+		int first = -1, last = -1;
+		for (int i = 0; i < size; i++) {
+			if (array[i] != arrayDuplicate[i]) {
+				if (first == -1)
+					first = i;
+				else
+					last = i;
+			}
+		}
+		for (int i = first; i <= last; i++) {
+			System.out.print(array[i] + " ");
+		}
+		scan.close();
 	}
 }
