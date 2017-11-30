@@ -1,4 +1,4 @@
-### Detailed Description of Challenges
+## Detailed Description of Challenges
 
 Code for days that are missing are simple challenges hence ommitted from commit
 
