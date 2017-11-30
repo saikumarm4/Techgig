@@ -16,9 +16,6 @@ public class Day10_SecondLargestElement {
 		System.out.println(array[numberOfElements - 2]);
 	}
 
-	/**
-	* Using Insertion Sort, sorting the array of elements
-	**/
 	public static void sortArray(int[] array) {
 		for (int i = 1; i < array.length; i++) {
 			int j = i - 1;
