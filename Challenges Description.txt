@@ -1,3 +1,5 @@
+Code for days that are missing are simple challenges hence ommitted from commit
+
 Day 2
 Exploring Data Types
 For this challenge, you need to read a line from stdin and check whether it is of type integer, float or string. 
