@@ -85,8 +85,3 @@ Diagonal 2 is 3,5,7.
 
 Day 30
 Given a matrix as an input from the stdin , identify which row has maximum sum of the digits.
-
-
-
-
-
