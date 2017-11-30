@@ -117,6 +117,6 @@ in the below matrix
 Diagonal 1 is 1,5,9. 
 Diagonal 2 is 3,5,7. 
 
-**Day 30 - Which row is bigger ? **
+**Day 30 - Which row is bigger ?**
 
 Given a matrix as an input from the stdin , identify which row has maximum sum of the digits.
