@@ -1,5 +1,5 @@
 # Techgig
-30 Day Coding Challenge at Techgig
+__30 Day Coding Challenge at Techgig__
 
 Following is the list of challenges, detailed description can be found in [Challenges Description](https://github.com/saikumarm4/Techgig/blob/master/Challenges%20Description.md)
 
